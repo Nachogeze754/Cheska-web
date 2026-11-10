@@ -1,5 +1,15 @@
+:root {
+    --denim: #3E6692;
+    --navy: #1F3A5F;
+    --navy-dark: #0F223D;
+    --line: #E3E6EA;
+    --font-title: 'Italiana', serif;
+    --font-script: 'Pinyon Script', cursive;
+    --font-body: 'Montserrat', sans-serif;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-body);
 }
 
 a {
@@ -8,15 +18,15 @@ a {
 }
 
 .hero {
-    background-color: #3E6692;
-    color: white;
+    background-color: var(--denim);
+    color: var(--line);
     padding: 72px 32px;
     
 }
 
 .hero h1 {
     font-size: 80px;
-    font-family: 'Italiana', serif;
+    font-family: var(--font-title);
     font-weight: 400;
     line-height: 1;
     margin-top: 18px;
@@ -34,21 +44,21 @@ a {
 }
 
 .btn--solid {
-    background-color: #1f3a5f;
-    color: white;
+    background-color: var(--navy);
+    color: var(--line);
     border: 1.5px solid transparent;
 }
 
 .btn--ghost {
-    border: 1.5px solid white;
+    border: 1.5px solid var(--line);
 }
 
 .btn--solid:hover {
-    background-color: #0f223d;
+    background-color: var(--navy-dark);
 }
 
 .hero__eyebrow {
-    font-family: 'Pinyon Script', cursive;
+    font-family: var(--font-script);
     font-size: 50px;
 }
 
