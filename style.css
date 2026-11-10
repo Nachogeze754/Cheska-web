@@ -6,11 +6,15 @@
     --font-title: 'Italiana', serif;
     --font-script: 'Pinyon Script', cursive;
     --font-body: 'Montserrat', sans-serif;
+    --ink: #1f2a36;
+    --bg: #f7f6f3;
 }
 
 body {
     font-family: var(--font-body);
     margin: 0;
+    background-color: var(--bg);
+    color: var(--ink);
 }
 
 a {
@@ -106,4 +110,18 @@ a {
 
 .header__nav a:hover {
     color: var(--denim);
+}
+
+.btn--outline {
+    border: 1.5px solid var(--navy);
+    color: var(var(--navy));
+}
+
+.btn--outline:hover {
+    background-color: var(--navy);
+    color: white;
+}
+
+.header__nav .btn {
+    padding: 12px 24px;
 }
