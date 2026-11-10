@@ -75,3 +75,35 @@ a {
     font-size: 13px;
     letter-spacing: 0.06em;
 }
+
+.header {
+    border-bottom: 1px solid var(--line);
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 32px;
+}
+
+.header__logo {
+    font-family: var(--font-title);
+    font-size: 34px;
+    letter-spacing: 0.08em;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav a {
+    padding: 12px;
+    font-size: 14px;
+}
+
+.header__nav a:hover {
+    color: var(--denim);
+}
