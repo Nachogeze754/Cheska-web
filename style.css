@@ -91,6 +91,8 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding: 12px 32px;
+    flex-wrap: wrap;
+    gap: 8px 24px;
 }
 
 .header__logo {
@@ -101,6 +103,7 @@ a {
 
 .header__nav {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header__nav a {
@@ -124,4 +127,14 @@ a {
 
 .header__nav .btn {
     padding: 12px 24px;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 48px 20px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
 }
