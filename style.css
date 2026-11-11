@@ -137,4 +137,8 @@ a {
     .hero h1 {
         font-size: 48px;
     }
+    
+    .hero__inner {
+        padding: 12px 20px;
+    }
 }
